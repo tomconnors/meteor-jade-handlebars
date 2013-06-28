@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "StringScanner": {
+      "version": "0.0.3"
+    },
+    "jade": {
+      "version": "0.27.7",
+      "dependencies": {
+        "commander": {
+          "version": "0.6.1"
+        },
+        "mkdirp": {
+          "version": "0.3.5"
+        },
+        "coffee-script": {
+          "version": "1.4.0"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/tom/.meteor/tools/cc18dfef9e/bin/node',
+1 verbose cli   '/home/tom/.meteor/tools/cc18dfef9e/bin/npm',
+1 verbose cli   'ls',
+1 verbose cli   '--json' ]
+2 info using npm@1.2.2
+3 info using node@v0.8.18
+4 verbose read json /home/tom/.meteorite/packages/jade-handlebars/tomconnors/meteor-jade-handlebars/6fd94f31606a6fd78b17a88da0b0c71e251774bd/.npm/package.json
+5 verbose read json /home/tom/.meteorite/packages/jade-handlebars/tomconnors/meteor-jade-handlebars/6fd94f31606a6fd78b17a88da0b0c71e251774bd/.npm/node_modules/StringScanner/package.json
+6 verbose read json /home/tom/.meteorite/packages/jade-handlebars/tomconnors/meteor-jade-handlebars/6fd94f31606a6fd78b17a88da0b0c71e251774bd/.npm/node_modules/jade/package.json
+7 verbose read json /home/tom/.meteorite/packages/jade-handlebars/tomconnors/meteor-jade-handlebars/6fd94f31606a6fd78b17a88da0b0c71e251774bd/.npm/node_modules/jade/node_modules/mkdirp/package.json
+8 verbose read json /home/tom/.meteorite/packages/jade-handlebars/tomconnors/meteor-jade-handlebars/6fd94f31606a6fd78b17a88da0b0c71e251774bd/.npm/node_modules/jade/node_modules/coffee-script/package.json
+9 verbose read json /home/tom/.meteorite/packages/jade-handlebars/tomconnors/meteor-jade-handlebars/6fd94f31606a6fd78b17a88da0b0c71e251774bd/.npm/node_modules/jade/node_modules/commander/package.json
+10 verbose readInstalled returning StringScanner@0.0.3
+11 verbose readInstalled returning jade@0.27.7
+12 verbose readInstalled returning commander@0.6.1
+13 verbose readInstalled returning mkdirp@0.3.5
+14 verbose readInstalled returning coffee-script@1.4.0
+15 verbose exit [ 0, true ]
+16 error Error: write EPIPE
+16 error     at errnoException (net.js:770:11)
+16 error     at Object.afterWrite (net.js:594:19)
+17 error If you need help, you may report this log at:
+17 error     <http://github.com/isaacs/npm/issues>
+17 error or email it to:
+17 error     <npm-@googlegroups.com>
+18 error System Linux 3.5.0-32-generic
+19 error command "/home/tom/.meteor/tools/cc18dfef9e/bin/node" "/home/tom/.meteor/tools/cc18dfef9e/bin/npm" "ls" "--json"
+20 error cwd /home/tom/.meteorite/packages/jade-handlebars/tomconnors/meteor-jade-handlebars/6fd94f31606a6fd78b17a88da0b0c71e251774bd/.npm
+21 error node -v v0.8.18
+22 error npm -v 1.2.2
+23 error syscall write
+24 error code EPIPE
+25 error errno EPIPE
+26 verbose exit [ 1, true ]
